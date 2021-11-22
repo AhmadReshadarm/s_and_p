@@ -32,10 +32,18 @@ export default function Home() {
       <div className={styles.Wrapper}>
         <header className={styles.headerWrapper}>
           <Link href="/">
-            <a className={styles.logWrapper}>
+            {/* <a className={styles.logWrapper}>
               <p className={styles.sWord}>S</p>
               <p className={styles.andSgin}>&</p>
               <p className={styles.pWord}>P</p>
+            </a> */}
+            <a>
+              <Image
+                width="150"
+                height="90"
+                src="/images/logo.png"
+                alt="logo"
+              />
             </a>
           </Link>
           <ul className={styles.navWrapper}>
@@ -288,8 +296,8 @@ export default function Home() {
               <a>
                 <Image
                   src="/images/logo.png"
-                  width="120"
-                  height="120"
+                  width="150"
+                  height="90"
                   alt="logo"
                 />
               </a>
