@@ -4,6 +4,7 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #e3e6ec;
 }
 
 a {
@@ -11,6 +12,23 @@ a {
   text-decoration: none;
 }
 
+ul {
+  list-style-type: none;
+}
+
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
 }
+
+*:focus {
+  outline: none;
+}
+.active {
+  color: #ff357a;
+  transition: 300ms;
+  border-bottom: 2px solid #ff357a;
+}
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
